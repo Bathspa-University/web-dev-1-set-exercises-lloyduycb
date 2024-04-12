@@ -1,0 +1,36 @@
+/*Styling for the soundboard.*/
+
+/*Body styling, with text-align, background-image, and different font.*/
+body{
+    text-align: center;
+    background-image: url(soundboard-background.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin: 90px;
+}
+
+/*heading styling, bigger font.*/
+h1 {
+    font-size: 70px;
+}
+
+/*Button styling, with background-color, border-radius, border, padding, color, margin, and bigger
+font size.*/
+button {
+    background-color: rgba(70, 31, 9, 0.589);
+    border-radius: 20px;
+    border: none;
+    padding: 2rem;
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+/*Button hover styling, which will have a different background and color when the pointer hover on the
+buttons.*/
+button:hover {
+    background-color: white;
+    color: black;
+}

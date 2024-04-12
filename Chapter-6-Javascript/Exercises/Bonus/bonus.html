@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+</head>
+<body>
+    <!--Heading one-->
+    <h1> RGB Color Guessing Game </h1>
+
+    <!--Paragraph that will display the RGB values.-->
+    <p id="colorValue">(R , G , B)</p>
+
+    <!--Div that contains  three buttons, for the choices of the colors and will display the color as a 
+    background in the javascript code. Each button will run a function when clicked.-->
+    <div class="color_box">
+        <button class="button" id="0" onclick="guess()"></button>
+        <button class="button" id="1" onclick="guess()"></button>
+        <button class="button" id="2" onclick="guess()"></button>
+    </div>
+    
+    <!--Button to take you to the next color, new set of RGB values.-->
+    <button id="next" onclick= "Next()">Next color</button>
+
+    <!--Link html to javascript.-->
+    <Script src="index.js"></Script>
+</body>
+</html>

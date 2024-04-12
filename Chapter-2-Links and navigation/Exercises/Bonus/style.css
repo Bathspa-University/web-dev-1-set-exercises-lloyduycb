@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@font-face {
+    font-family: Tekken;
+    src: url(assets/tarrget/tarrgetexpandital.ttf);
+}
+
+@font-face {
+    font-family: TekkenSub;
+    src: url(assets/tarrget/tarrgetital.ttf);
+}
+
+@font-face {
+    font-family: TekkenChar;
+    src: url(assets/tarrget/tarrgetital.ttf)
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    background-color: #070707;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: Tekken;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: brown;
+    padding-bottom: 10px;
+    margin-block-end: 0;
+}
+
+h2{
+    font-family: TekkenSub;
+    padding-bottom: 10px;
+    color: brown;
+}
+
+h3{
+    font-family: TekkenChar;
+    padding-bottom:5px;
+}
+
+nav button:hover {
+    background-color: aliceblue;
+    transition: all;
+    transition-duration: 100ms;
+}
+
+nav button {
+    background-color: brown;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translateY(-3px);
+}
+
+nav ul ul li {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 5px 5px;
+    background-color: rgb(49, 55, 57);
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+nav ul li{
+    font-size: 12px;   
+}
+
+nav a:hover {
+    color: brown;
+    transition: all;
+    transition-duration: 100ms;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav li:hover>ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: max-content;
+    transform: translateX(-25px);
+}
+
+nav li {
+    margin-right: 15px;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav{
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 50px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    /* position: fixed; */
+}
+
+.content {
+    padding: 50px; /* Adjust the value based on your needs */
+    max-width: 60%;
+    margin: auto;
+}
+

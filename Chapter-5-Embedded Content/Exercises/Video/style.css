@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('TEKKEN8_Header_mobile_2.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    filter: brightness(50%); 
+    z-index: -1;
+}
+
+video {
+    width: 1250px;
+    height: auto;
+    border: 15px slategrey;
+    border-radius: 7.5px;
+}
+
+video::poster {
+    width:1250px;
+    height: auto;
+}

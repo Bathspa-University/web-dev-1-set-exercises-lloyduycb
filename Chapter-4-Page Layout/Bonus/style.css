@@ -1,0 +1,111 @@
+header {
+    background-color: rgb(25, 63, 199);
+    text-align: center;
+    color: white;
+    height: 200px;  
+    font-size: 25px;
+    padding: 10px ;
+    border-radius: 1rem;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+
+}
+
+main{
+    font: arial;
+    font-size: 20px;
+    margin:20px ;
+}
+
+.main_div {
+    display: flex;
+    margin: 5px;
+
+}
+
+.left{
+    flex: 50%;
+}
+
+.right{
+    color: white;
+    background-color: rgb(88, 130, 207);
+    flex: 50%;
+    padding: 30px;
+    border-radius: 1rem;
+}
+
+footer {
+    background-color: rgb(25, 63, 199);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#schedule, #lessons, #edu_vid {
+    color:rgb(88, 130, 207) ;
+}
+
+.B1, .B2, .B3, .B4, .B5 {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem ;
+}
+
+.B1, .B2, .B5{
+    background-color: rgb(88, 130, 207);
+    color: white;
+}
+
+.B1:hover, .B2:hover, .B5:hover{
+    background-color: rgb(25, 63, 199);
+}
+
+.B3, .B4{
+    color: rgb(88, 130, 207);
+}
+
+.B3:hover, .B4:hover{
+    background-color: rgb(25, 63, 199) ;
+    color: white;
+}
+
+a:hover{
+    background-color:rgb(88, 130, 207) ;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+img {
+    height: 300px;
+    width: 560px;
+    border-radius: 1rem;
+
+}
+
+.B5 {
+margin-left: 35rem;
+margin-bottom: 5rem;
+}
+
+.bottom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom button {
+    width: 300px;
+}
